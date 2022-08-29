@@ -12,14 +12,14 @@ describe('handle 1 cent', function () {
     })
 })
 
-// describe('handle 2 cents', function () {
-//     it('should return array with two 1s in it', () => {
-//         expect(coinChanger(2)).toStrictEqual([1, 1])
-//     })
-// })
+describe('handle 2 cents', function () {
+    it('should return array with two 1s in it', () => {
+        expect(coinChanger(2)).toStrictEqual([1, 1])
+    })
+})
 
-// describe('handle 5 cents', function () {
-//     it('should return array with 5 in it', () => {
-//         expect(coinChanger(5)).toStrictEqual([5])
-//     })
-// })
+describe('handle 5 cents', function () {
+    it('should return array with 5 in it', () => {
+        expect(coinChanger(5)).toStrictEqual([5])
+    })
+})
